@@ -2,7 +2,8 @@ import React from "react";
 
 const Content = () => {
   return (
-    <section className=" w-full h-full  max-md:mt-26 max-md:items-center max-md:justify-between ml-40 max-sm:w-full max-sm:h-2/4 text-black mt-18 max-sm:mt-2">
+    <section className=" w-full h-full  max-md:mt-26 max-md:items-center max-md:justify-between ml-40 max-sm:w-full max-sm:h-3/4 text-black mt-18 max-sm:mt-3">
+      {/*content section*/}
       <div className="flex   gap-4 text-lg max-sm:text-sm">
         <span className="bg-black  text-sm px-1 items-center justify-center py-1  text-white  rounded-full font-thin">
           New
@@ -19,7 +20,7 @@ const Content = () => {
         for agile teams
       </p>
       <div className="flex mt-7 max-sm:mt-1">
-        {/*button*/}
+        {/*button for the schedule  a demo */}
         <button
           type="button"
           className="bg-red-400 p-2 font-bold max-sm:p-1 max-sm:rounded-xl w-40 h-10 rounded-2xl text-sm text-white"

@@ -4,6 +4,7 @@ import Devices from "../assets/illustration-devices.svg";
 function ImageSection() {
   return (
     <section className="w-full h-full  relative mt-1 overflow-hidden max-sm:w-11/12 max-sm:h-36 max-md:h-96  max-sm:mt-0 max-sm:ml-32 max-md:mr-0">
+      {/*image section*/}
       <img
         src={Devices}
         alt="mydevice"
